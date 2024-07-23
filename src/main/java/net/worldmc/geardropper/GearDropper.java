@@ -8,6 +8,7 @@ public final class GearDropper extends JavaPlugin {
 
     @Override
     public void onEnable() {
+        saveDefaultConfig();
         PluginManager pluginManager = getServer().getPluginManager();
         pluginManager.registerEvents(new PlayerDeathListener(this), this);
     }
