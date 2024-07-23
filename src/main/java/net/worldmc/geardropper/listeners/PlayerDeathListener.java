@@ -5,7 +5,9 @@ import org.bukkit.Material;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.PlayerDeathEvent;
+import org.bukkit.inventory.ItemStack;
 
+import java.util.Iterator;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -26,7 +28,13 @@ public class PlayerDeathListener implements Listener {
 
     @EventHandler
     public void onPlayerDeath(PlayerDeathEvent event) {
-        event.getItemsToKeep().addAll(event.getDrops());
-        event.getItemsToKeep().removeIf(item -> item != null && !gearMaterials.contains(item.getType()));
+        Iterator<ItemStack> iterator = event.getDrops().iterator();
+        while (iterator.hasNext()) {
+            ItemStack item = iterator.next();
+            if (item != null && !gearMaterials.contains(item.getType())) {
+                event.getItemsToKeep().add(item);
+                iterator.remove();
+            }
+        }
     }
 }
