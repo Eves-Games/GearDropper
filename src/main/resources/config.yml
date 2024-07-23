@@ -1,0 +1,57 @@
+gold-percent: 0.5
+
+gear:
+  # Leather Armor
+  - LEATHER_HELMET
+  - LEATHER_CHESTPLATE
+  - LEATHER_LEGGINGS
+  - LEATHER_BOOTS
+  # Chainmail Armor
+  - CHAINMAIL_HELMET
+  - CHAINMAIL_CHESTPLATE
+  - CHAINMAIL_LEGGINGS
+  - CHAINMAIL_BOOTS
+  # Iron Armor
+  - IRON_HELMET
+  - IRON_CHESTPLATE
+  - IRON_LEGGINGS
+  - IRON_BOOTS
+  # Golden Armor
+  - GOLDEN_HELMET
+  - GOLDEN_CHESTPLATE
+  - GOLDEN_LEGGINGS
+  - GOLDEN_BOOTS
+  # Diamond Armor
+  - DIAMOND_HELMET
+  - DIAMOND_CHESTPLATE
+  - DIAMOND_LEGGINGS
+  - DIAMOND_BOOTS
+  # Netherite Armor
+  - NETHERITE_HELMET
+  - NETHERITE_CHESTPLATE
+  - NETHERITE_LEGGINGS
+  - NETHERITE_BOOTS
+  # Turtle Shell
+  - TURTLE_HELMET
+  # Shields
+  - SHIELD
+  # Swords
+  - WOODEN_SWORD
+  - STONE_SWORD
+  - IRON_SWORD
+  - GOLDEN_SWORD
+  - DIAMOND_SWORD
+  - NETHERITE_SWORD
+  # Mace
+  - MACE
+  # Bows and Crossbows
+  - BOW
+  - CROSSBOW
+  # Trident
+  - TRIDENT
+  # Fishing Rod (can be used in combat)
+  - FISHING_ROD
+  # Elytra (for aerial combat)
+  - ELYTRA
+  # Totems
+  - TOTEM_OF_UNDYING

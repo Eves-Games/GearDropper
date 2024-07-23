@@ -1,0 +1,4 @@
+name: GearDropper
+version: '${project.version}'
+main: net.worldmc.geardropper.GearDropper
+api-version: '1.21'
