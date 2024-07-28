@@ -11,6 +11,11 @@
 
   <name>GearDropper</name>
 
+  <organization>
+      <name>Eve's Games</name>
+      <url>https://github.com/Eves-Games</url>
+  </organization>
+
   <properties>
     <java.version>1.8</java.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
